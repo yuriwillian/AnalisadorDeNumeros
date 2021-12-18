@@ -1,0 +1,58 @@
+body {
+    background: rgb(92, 92, 253);
+    font: normal 15pt Arial;
+}
+
+header {
+    color:white;
+    text-align: center; /** centralizar texto**/
+    font: normal 15pt Bungee;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /** deixar as bordas arredondadas**/
+    padding: 15px; /** aumentar o tamanho**/
+    width: 500px; /** largura de 500px**/
+    margin: auto; /** centralizar**/
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438); /** criar sombra 5px de deslocamento lateral, 5 px de deslocamento vertical, 10 px de espalhamento**/
+}
+div#calltoaction {
+    font: normal 16pt Bungee;
+}
+input#número {
+    border-radius: 100px;
+    padding: 5px;
+    font: normal 12pt Arial Black;
+}
+input#adicionar {
+    border-radius: 100px;
+    width: 100px;
+    font: normal 8pt Bungee;
+}
+
+div#scroll {
+    margin: auto;
+    overflow-y:scroll;
+    height: 150px;
+    width: 300px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    font: normal 13pt Arial Black;
+}
+input#analisar {
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 100px;
+    font: normal 8pt Bungee;
+
+}
+p#resposta {
+    font: normal 10pt Bungee;
+}
+footer {
+    color:white;
+    text-align: center;
+    font: italic 15pt Bungee;
+}
