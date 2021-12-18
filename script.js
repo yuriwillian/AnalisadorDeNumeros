@@ -13,7 +13,10 @@ function adicionar() {
     var númeropreenchido = Number(número.value)
     dados.push(númeropreenchido)
     lista.innerText += `\nO número digitado foi ${númeropreenchido}`
-}}
+}
+    número.value = ""
+    número.focus()
+}
 
 
 
